@@ -171,3 +171,16 @@ print(sess.run(accuracy, feed_dict={x:mnist.test.images, y_:mnist.test.labels}))
 
 
 ```
+
+
+# MNIST for Expert に挑戦
+
+-------------
+
+# 画像認識
+
+
+```
+$ source activate tensorflow
+$ python classify_image.py 
+```
